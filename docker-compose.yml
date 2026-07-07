@@ -1,7 +1,7 @@
-# Merged KRAKEN + Monitoring stack
 version: '3.8'
 services:
   dashboard:
     image: streamlit/streamlit
-    ports: ['8501:8501']
-  # More services...
+    ports:
+      - '8501:8501'
+  # Full stack with monitoring added

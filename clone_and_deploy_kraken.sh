@@ -1,6 +1,6 @@
 #!/bin/bash
-# Full deployment script for KRAKEN OSINT MAX
-echo '🐙 Deploying KRAKEN OSINT MAX...'
-cd /opt/kraken-final
-git pull
-echo '✅ Deploy complete'
+echo '🐙 Deploying KRAKEN OSINT MAX vFinal...'
+cd /opt/kraken-final || mkdir -p /opt/kraken-final && cd /opt/kraken-final
+git pull || git clone https://github.com/user1mxm/kraken-osint-max.git .
+docker compose up -d --build
+echo '✅ KRAKEN deployed successfully on VPS'
