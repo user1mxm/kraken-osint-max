@@ -1,2 +1,8 @@
-# kraken-osint-max
-KRAKEN OSINT MAX - Plataforma completa de OSINT/SOCINT/SOCMINT con scrape avanzado, breach, reverse image, dashboard y stack completo (Postgres + Redis + Neo4j)
+# KRAKEN OSINT MAX vFinal
+
+Full OSINT platform by Joe with Grok.
+
+## Deploy
+```bash
+./clone_and_deploy_kraken.sh
+```
