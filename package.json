@@ -1,0 +1,10 @@
+{
+  "name": "kraken-osint-max",
+  "version": "1.0.0",
+  "private": true,
+  "description": "KRAKEN OSINT MAX vFinal - Docker/Streamlit deployment",
+  "scripts": {
+    "build": "echo 'No Node build step required.'",
+    "start": "docker compose up -d --build"
+  }
+}
